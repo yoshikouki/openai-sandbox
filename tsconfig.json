@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "sourceMap": true,
+    "outDir": "dist",
+    "strict": true,
+    "lib": [
+      "esnext",
+    ],
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node"
+  },
+  "include": [
+    "src",
+    "bin",
+  ],
+  "exclude": [],
+  "assets": {
+    "baseDir": ".",
+    "filePatterns": [
+      "**/*.{json,yaml}",
+      "!node_modules",
+    ]
+  }
+}

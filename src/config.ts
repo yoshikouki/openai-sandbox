@@ -12,6 +12,10 @@ const config = {
   server: {
     port: Number(process.env.PORT) || 3000,
   },
+  line: {
+    channelAccessToken: process.env.LINE_CHANNEL_ACCESS_TOKEN || "",
+    channelSecret: process.env.LINE_CHANNEL_SECRET || "",
+  }
 };
 
 export default config;

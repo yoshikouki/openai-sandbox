@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/yoshikouki/openai-sandbox#readme",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "esbuild-runner": "^2.2.2",
     "openai": "^3.1.0"
   },

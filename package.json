@@ -1,0 +1,22 @@
+{
+  "name": "openai-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoshikouki/openai-sandbox.git"
+  },
+  "author": "yoshikouki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yoshikouki/openai-sandbox/issues"
+  },
+  "homepage": "https://github.com/yoshikouki/openai-sandbox#readme",
+  "dependencies": {
+    "openai": "^3.1.0"
+  }
+}

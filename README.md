@@ -1,10 +1,28 @@
 # openai-sandbox
 
+![Sample Messages](docs/images/sample-messages-on-line.png)
+
 ## Setup
 
+First, register with https://chat.openai.com/ to obtain an API Key.
+
 ```sh
+$ cp .env.example .env
+# And set environment variables
 $ npm i
+```
+
+Interactive Conversations on prompt...
+
+```sh
 $ npm start
+```
+
+or on LINE Messaging API. (Require to setup LINE Developers)
+
+```sh
+$ npm server
+$ ngrok http 3000
 ```
 
 # Example
@@ -41,3 +59,5 @@ for (let i = 1; i <= 100; i++) {
 
 >
 ```
+
+![Sample Messages](docs/images/sample-messages-on-line.png)

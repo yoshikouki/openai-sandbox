@@ -9,6 +9,9 @@ const config = {
     temperature: Number(process.env.OPENAI_TEMPERATURE)  || 1.0,
     max_tokens: Number(process.env.OPENAI_MAX_TOKENS)  || 128,
   },
+  server: {
+    port: Number(process.env.PORT) || 3000,
+  },
 };
 
 export default config;

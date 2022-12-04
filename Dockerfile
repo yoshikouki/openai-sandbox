@@ -8,6 +8,7 @@ RUN npm install --omit=dev
 
 FROM node:18-alpine
 ENV NODE_ENV production
+ENV PORT 8080
 
 WORKDIR /app
 
@@ -16,6 +17,6 @@ COPY --chown=node:node --from=builder /app/node_modules ./node_modules
 COPY --chown=node:node . .
 
 USER node
-EXPOSE 8080
+EXPOSE ${PORT}
 
-CMD ["npm", "run", "server"]
+CMD ["npm", "run", "server", "--", "--env_var=$PORT"]

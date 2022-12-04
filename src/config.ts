@@ -10,7 +10,7 @@ const config = {
     max_tokens: Number(process.env.OPENAI_MAX_TOKENS) || 2048,
   },
   server: {
-    port: Number(process.env.PORT) || 3000,
+    port: Number(process.env.PORT) || 8080,
   },
   line: {
     channelAccessToken: process.env.LINE_CHANNEL_ACCESS_TOKEN || "",

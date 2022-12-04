@@ -1,4 +1,4 @@
-PORT=8888
+PORT=8080
 IMAGE_NAME=aic
 include .env
 
